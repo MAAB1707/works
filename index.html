@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <img src="images/MYWORK.svg" alt="" class="navbar--logo">
+            <div class="navbar--content d-flex justify-content-between align-items-center">
+
+                <div class="navbar--content__info d-lg-flex d-none align-items-center">
+                    <a href="#!">About me</a>
+                    <a href="#!">Works</a>
+                    <div class="dropdown">
+                        <button class="btn ordering-btn" type="button" id="dropdown" data-bs-toggle="dropdown">
+                            to order
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#!">Lorem1</a></li>
+                            <li><a class="dropdown-item" href="#!">Lorem2</a></li>
+                            <li><a class="dropdown-item" href="#!">Lorem3</a></li>
+                        </ul>
+                    </div>
+                    <a href="#!" class="f300 icons-calling"></a>
+                </div>
+
+            </div>
+            <a href="#cart" data-bs-toggle="offcanvas" class="navbar__nav--btn d-lg-none d-flex">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <!-- menu right -->
+        <div class="offcanvas offcanvas-end cart" id="cart">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" ></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column">
+                <a href="#!" class="cart-me">About me</a>
+                <a href="#!" class="cart-works">Works</a>
+                <a href="#!" class="cart-calling">Contacts</a>
+                <div class="dropdown">
+                    <button class="btn ordering-btn" type="button" id="dropdown" data-bs-toggle="dropdown">
+                        to order
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#!">Lorem1</a></li>
+                        <li><a class="dropdown-item" href="#!">Lorem2</a></li>
+                        <li><a class="dropdown-item" href="#!">Lorem3</a></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        <!-- menu right end-->
+    </nav>
+    <!-- navbar end -->
+
+    <!-- header -->
+    <header class="header container">
+        <div id="header-slider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <div class="carousel__content ">
+                        <div class="carousel__content--text d-flex flex-column align-items-xl-start align-items-center">
+                            <span>My beginning</span>
+                            <h3>Self-development and training in the training center</h3>
+                            <a href="#!">GET STARTED NOW</a>
+
+                        </div>
+                        <div class="carousel__content--lang d-flex justify-content-between ">
+                            <div class="carouesel--html d-flex flex-column align-items-center gap-3">
+                                <img src="images/html.svg" alt="">
+                                <p>HTML</p>
+                            </div>
+                            <div class="carouesel--css d-flex flex-column align-items-center gap-3">
+                                <img src="images/css.svg" alt="">
+                                <p>CSS</p>
+                            </div>
+                            <div class="carouesel--bootsrap d-flex flex-column align-items-center gap-3">
+                                <img src="images/bootsrao.svg" alt="">
+                                <p>bootstrap 5</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img src="images/image1.png" alt="" class="header-slider__img d-xl-block d-none">
+                </div>              
+                <div class="carousel-item ">
+                    <div class="carousel__content">
+                        <div class="carousel__content--text d-flex flex-column">
+                            <span>My beginning</span>
+                            <h3>Self-development and training in the training center</h3>
+                            <a href="#!">GET STARTED NOW</a>
+
+                        </div>
+                        <div class="carousel__content--lang d-flex justify-content-between ">
+                            <div class="carouesel--html d-flex flex-column align-items-center gap-3">
+                                <img src="images/html.png" alt="">
+                                <p>HTML</p>
+                            </div>
+                            <div class="carouesel--css d-flex flex-column align-items-center gap-3">
+                                <img src="images/css.png" alt="">
+                                <p>CSS</p>
+                            </div>
+                            <div class="carouesel--bootsrap d-flex flex-column align-items-center gap-3">
+                                <img src="images/bootsrao.png" alt="">
+                                <p>bootstrap 5</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img src="images/image1.png" alt="" class="header-slider__img d-xl-block d-none">
+                </div>              
+                <div class="carousel-item ">
+                    <div class="carousel__content">
+                        <div class="carousel__content--text d-flex flex-column">
+                            <span>My beginning</span>
+                            <h3>Self-development and training in the training center</h3>
+                            <a href="#!">GET STARTED NOW</a>
+
+                        </div>
+                        <div class="carousel__content--lang d-flex justify-content-between ">
+                            <div class="carouesel--html d-flex flex-column align-items-center gap-3">
+                                <img src="images/html.png" alt="">
+                                <p>HTML</p>
+                            </div>
+                            <div class="carouesel--css d-flex flex-column align-items-center gap-3">
+                                <img src="images/css.png" alt="">
+                                <p>CSS</p>
+                            </div>
+                            <div class="carouesel--bootsrap d-flex flex-column align-items-center gap-3">
+                                <img src="images/bootsrao.png" alt="">
+                                <p>bootstrap 5</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img src="images/image1.png" alt="" class="header-slider__img d-xl-block d-none">
+                </div>              
+              </div>
+            <ul class="carousel-indicators">
+              <li data-bs-target="#header-slider" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#header-slider" data-bs-slide-to="1" ></li>
+              <li data-bs-target="#header-slider" data-bs-slide-to="2" ></li>
+            </ul>
+            
+            
+          </div>
+    </header>
+    <!-- header end -->
+
+    <!-- frontend -->
+    <section class="frontend container-fluid  position-relative">
+        <img src="images/right.png" alt="" class="frontend__bg position-absolute d-xl-block d-none">
+        <div class="container d-flex flex-xl-row flex-column align-items-center gap-2">
+            <div class="frontend--img_elements">
+                <p class="position-relative">
+                    my work for
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill ">
+                      5+
+                    </span>
+                </p>
+                <img src="images/image2.png" alt="" >
+
+            </div>
+            <div class="frontend--about d-flex flex-column">
+                <h3>What is Frond-End</h3>
+                <p>it is the development of of the user interface and functions that run on on the client side of a website or application This is everything that a user sees when opening a or aweb page and with which he interacts
+                </p>
+                <p>This is everything that a user sees when opening a web page and with which he interacts.</p>
+                
+                <a href="#!">go to work</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- frontend end -->
+
+    <!-- capabilites -->
+    <section class="capabilites container-fluid d-flex flex-column align-items-center">
+        <h3>capabilities</h3>
+        <div class="capabilites__that container d-flex justify-content-xl-between justify-content-center align-items-center">
+            <div class="capabilites_accordion" id="accordion">
+               
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="capabilites_button collapsed f400 icon-html" type="button" data-bs-toggle="collapse" data-bs-target="#link4" >
+                        html
+                    </button>
+                  </h2>
+                  <div id="link4" class="accordion-collapse collapse" d>
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est                     
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="capabilites_button collapsed f400 icon-css" type="button" data-bs-toggle="collapse" data-bs-target="#link2" >
+                        CSS
+                    </button>
+                  </h2>
+                  <div id="link2" class="accordion-collapse collapse" d>
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est                     
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="capabilites_button collapsed f400 icon-bootstrap" type="button" data-bs-toggle="collapse" data-bs-target="#link3" >
+                        bootstrap
+                    </button>
+                  </h2>
+                  <div id="link3" class="accordion-collapse collapse" d>
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis felis dui quis eget suspendisse rutrum orci. Elementum, ultrices dictum cras sit volutpat morbi adipiscing ut. Convallis faucibus ligula blandit enim. Accumsan est                     
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+            <img src="images/image3.png" alt="" class="d-xl-flex d-none">
+        </div>
+
+    </section>
+    <!-- capabilites end -->
+
+   <!-- myworks -->
+   <section class="myworrks container-fluid position-relative d-flex flex-column align-items-center">
+    <img src="images/left.png" alt="" class="myworks__bg position-absolute d-xl-block d-none">
+    <h3>My Works</h3>
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <div class="col-lg-3 col-12 ">
+              <div class="list-group mywork-list flex-lg-column flex-row" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-nike-list" data-bs-toggle="list" href="#list-nike" role="tab" aria-controls="list-nike">NIKE</a>
+                <a class="list-group-item list-group-item-action" id="list-silver-list" data-bs-toggle="list" href="#list-silver" role="tab" aria-controls="list-silver">SILVER HOUSE</a>
+                <a class="list-group-item list-group-item-action" id="list-marketing-list" data-bs-toggle="list" href="#list-marketing" role="tab" aria-controls="list-marketing">ORANGE-MARKETING</a>
+                <a class="list-group-item list-group-item-action d-md-block d-none" id="list-toshkents-list" data-bs-toggle="list" href="#list-toshkents" role="tab" aria-controls="list-toshkents">TOSHKENT</a>
+                <a class="list-group-item list-group-item-action d-md-block d-none" id="list-street88-list" data-bs-toggle="list" href="#list-street88" role="tab" aria-controls="list-street88">STREET88</a>
+                <a class="list-group-item list-group-item-action d-md-block d-none" id="list-pizzeria-list" data-bs-toggle="list" href="#list-pizzeria" role="tab" aria-controls="list-pizzeria">PIZZERIA</a>
+              </div>
+            </div>
+            <div class="col-lg-9 col-12">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active flex-md-row flex-column" id="list-nike" role="tabpanel" >
+                    <img src="images/Rectangle 19.jpg" alt="">
+                    <div class="myworks_content d-flex flex-column justify-content-between ">
+                        <h4>NIKE Layout</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, mauris neque, gravida amet diam cum nisl enim. Vestibulum, risus, maecenas et nisi lobortis malesuada vel. Neque, sem tellus sed a, enim egestas. Mi mi id amet, lorem vitae lectus risus diam</p>
+                        <p>nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris viverra quis sapien quam. Non parturient sed </p>
+                        <a href="#!" class="myworks_content--details">details</a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="list-silver" role="tabpanel" >...</div>
+                <div class="tab-pane fade" id="list-marketing" role="tabpanel" >...</div>
+                <div class="tab-pane fade" id="list-toshkents" role="tabpanel" >...</div>
+                <div class="tab-pane fade" id="list-street88" role="tabpanel" >...</div>
+                <div class="tab-pane fade" id="list-pizzeria" role="tabpanel" >...</div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</section>
+<!-- myworks end -->
+
+<!-- footer -->
+ <footer class="footer container d-flex justify-content-end">
+     <div class="footrer_content d-flex flex-column align-items-center ">
+         <img src="images/MYWORK.svg" alt="">
+        <nav class="nav tabl-list d-flex justify-content-around flex-wrap">
+            <a href="#about" data-bs-toggle="tab" >about Me</a>
+            <a href="#Works" data-bs-toggle="tab">Works</a>
+            <a href="#Contacts" data-bs-toggle="tab" class="active">Contacts</a>
+        </nav>
+        <div class="tab-content">
+            <div class="tab-pane fade" id="about"> Lorem ipsum dolor sit amet.</div>
+            <div class="tab-pane fade" id="Works">Далеко-далеко за словесными горами в стране.</div>
+            <div class="tab-pane fade show active" id="Contacts">
+                <a href="#!">(239) 555-0108</a>
+                <a href="#!">Ronald Richards@gmail.com</a>
+            </div>
+        </div>
+     </div>
+
+
+
+</footer>
+<!-- footer end -->
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
